@@ -1,10 +1,9 @@
-import torch
 import torch.nn as nn
 
 class NN(nn.Module):
     def __init__(self):
         super(NN, self).__init__()
-        self.fc1 = nn.Linear(18, 6)
+        self.fc1 = nn.Linear(5, 6)
         self.fc2 = nn.Linear(6, 6)
         self.fc3 = nn.Linear(6, 1)
 
